@@ -98,7 +98,7 @@ header nav .buttons button {
 }
 
 header nav .buttons button:hover {
-  opacity: 1.7;
+  opacity: 0.7;
 }
 
 header nav .buttons .login {

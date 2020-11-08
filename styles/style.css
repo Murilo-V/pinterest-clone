@@ -241,8 +241,6 @@ header nav .buttons .signup {
 .grid-container .grid .column .item {
   width: 236px;
   height: 350px;
-  background-color: #e60023;
-  border-radius: 20px;
 }
 
 .grid-container .grid .column .item:not(:first-child) {

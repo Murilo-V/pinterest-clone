@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 28px 15px 24px;
+    padding: 15px 24px 15px 24px;
 
     h3 {
         color: $red;
@@ -13,5 +13,54 @@ header {
     nav {
         display: flex;
         align-items: center;
+
+        ul {
+            li {
+                padding: 16px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: $black;
+                    font-weight: 600;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            margin-left: 30px;
+
+            button {
+                font-size: 16px;
+                font-weight: 600;
+                padding: 11px 12px;
+                border-radius: 24px;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 300ms;
+
+                &:hover {
+                    opacity: 1.7;
+                }
+            }
+
+            .login {
+                color: $white;
+                background-color: $red;
+            }
+
+            .signup {
+                margin-left: 16px;
+                background-color: $gray-light;
+            }
+        }
     }
 }

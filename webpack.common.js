@@ -15,6 +15,6 @@ const path = require('path');
    ],
    output: {
      filename: 'bundle.js',
-     path: path.resolve(__dirname),
+     path: __dirname,
    },
  };

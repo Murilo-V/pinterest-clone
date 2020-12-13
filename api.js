@@ -16,5 +16,5 @@ async function addImage(item) {
     img.style.width = '236px';
     img.style.borderRadius = '20px';
     item.appendChild(img)
-    
+    console.log(`funcionou kkkk img ${item}`);
 }
